@@ -36,7 +36,7 @@ const About = (props) => {
 
   return (
     <div className='container' >
-        <h1 className='my-3'style={{color: props.mode === "dark" ? "white" :"#042743"}}>About Us</h1>
+        <h1 className='my-3'style={{color: props.mode === "dark" ? "white" :"green"}}>About Us</h1>
         <div className="accordion" id="accordionExample">
             <div className="accordion-item">
                 <h2 className="accordion-header" id="headingOne">
